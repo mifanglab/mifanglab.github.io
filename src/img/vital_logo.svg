@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 180" role="img" aria-labelledby="title desc">
+  <title id="title">VITAL Lab</title>
+  <desc id="desc">Vascular Imaging and Translational AI Laboratory logo</desc>
+  <rect width="640" height="180" fill="#ffffff"/>
+  <g transform="translate(42 30)">
+    <path d="M54 14c30 18 46 43 46 73 0 24-10 43-28 57" fill="none" stroke="#006d77" stroke-width="14" stroke-linecap="round"/>
+    <path d="M28 32c27 15 42 34 42 58 0 18-8 33-24 45" fill="none" stroke="#e63946" stroke-width="10" stroke-linecap="round"/>
+    <path d="M18 88h92" fill="none" stroke="#264653" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="18" cy="88" r="8" fill="#e63946"/>
+    <circle cx="110" cy="88" r="8" fill="#006d77"/>
+  </g>
+  <text x="188" y="82" fill="#1f2933" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="700">VITAL Lab</text>
+  <text x="190" y="126" fill="#4b5563" font-family="Arial, Helvetica, sans-serif" font-size="22">Vascular Imaging and Translational AI Laboratory</text>
+</svg>
