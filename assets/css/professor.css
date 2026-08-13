@@ -51,12 +51,6 @@ body.professor-profile-page {
   text-decoration: none;
 }
 
-.professor-labbar__brand img {
-  width: 36px;
-  height: 36px;
-  object-fit: contain;
-}
-
 .professor-labbar nav {
   display: flex;
   align-items: stretch;
