@@ -1,0 +1,44 @@
+a:link {
+  color: #1a73e8;
+  background-color: transparent;
+  /* font-weight: bold; */
+}
+a:visited {
+  color: #1a73e8;
+  background-color: transparent;
+  /* font-weight: bold; */
+}
+a:hover {
+  color: #FF7B54;
+  background-color: transparent;
+  font-weight: bold;
+}
+a:active {
+  color: #1a73e8;
+  background-color: transparent;
+  font-weight: bold;
+}
+hl_color{
+  color: #cc0000;
+  background-color: transparent;
+  font-weight: bold;
+}
+
+hl_grant{
+  color: #227C70;
+  background-color: transparent;
+  font-weight: bold;
+}
+html{
+  color: #000000 ;
+  background-color: #f1f3f4;
+  font-family: Helvetica, Tahoma, Arial;
+  /* font-weight: 300;  */
+  margin: 0 auto;
+  height: 100%;
+  min-height: 100%;
+  width: 100%;
+  max-width: 1080px;
+  padding: 0;
+  line-height:150%
+}
