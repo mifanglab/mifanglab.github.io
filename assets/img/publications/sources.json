@@ -1,0 +1,666 @@
+[
+  {
+    "id": "pub-001",
+    "title": "Artifact-suppressed 3D retinal microvascular segmentation via multi-scale topology regulation",
+    "paper_url": "https://doi.org/10.1016/j.media.2026.103988",
+    "image": "/assets/img/publications/pub-001.webp",
+    "image_source": "https://ars.els-cdn.com/content/image/1-s2.0-S1361841526000575-gr1.jpg",
+    "source_type": "paper/project image"
+  },
+  {
+    "id": "pub-002",
+    "title": "Detecting Clinical Hallucinations in LVLMs via Counterfactual Visual Grounding Uncertainty",
+    "paper_url": "https://doi.org/10.48550/arXiv.2606.28520",
+    "image": "/assets/img/publications/pub-002.webp",
+    "image_source": "https://arxiv.org/pdf/2606.28520",
+    "source_type": "paper figure"
+  },
+  {
+    "id": "pub-003",
+    "title": "Fine-Grained Hierarchical Progressive Modal-Aware Network for Brain Tumor Segmentation",
+    "paper_url": "https://doi.org/10.1109/jbhi.2025.3572301",
+    "image": "",
+    "image_source": "",
+    "source_type": ""
+  },
+  {
+    "id": "pub-004",
+    "title": "Generative data-engine foundation model for universal few-shot 2D vascular image segmentation",
+    "paper_url": "https://doi.org/10.1016/j.media.2026.103996",
+    "image": "/assets/img/publications/pub-004.webp",
+    "image_source": "https://ars.els-cdn.com/content/image/1-s2.0-S1361841526000654-gr1.jpg",
+    "source_type": "paper/project image"
+  },
+  {
+    "id": "pub-005",
+    "title": "Integrating AI, imaging innovations and omics for precision medicine",
+    "paper_url": "https://doi.org/10.1136/bmjophth-2026-002745",
+    "image": "/assets/img/publications/pub-005.webp",
+    "image_source": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/daba/12927330/7bd6a34afabd/bmjophth-11-1-g001.jpg",
+    "source_type": "paper/project image"
+  },
+  {
+    "id": "pub-006",
+    "title": "MTD-Net: A robust multi-task discriminative network for choroidal neovascularization segmentation",
+    "paper_url": "https://doi.org/10.1016/j.patcog.2025.112697",
+    "image": "/assets/img/publications/pub-006.webp",
+    "image_source": "https://ars.els-cdn.com/content/image/1-s2.0-S0031320325013603-gr1.jpg",
+    "source_type": "paper/project image"
+  },
+  {
+    "id": "pub-007",
+    "title": "Multimodal Distillation and Fusion for Enhanced Age-Related Macular Degeneration Classification",
+    "paper_url": "https://doi.org/10.1109/jbhi.2026.3701961",
+    "image": "",
+    "image_source": "",
+    "source_type": ""
+  },
+  {
+    "id": "pub-008",
+    "title": "Super-Resolution Reconstruction of OCTA via Multi-Field-of-View Representation Learning",
+    "paper_url": "https://doi.org/10.1109/jbhi.2025.3593149",
+    "image": "/assets/img/publications/pub-008.webp",
+    "image_source": "https://research.edgehill.ac.uk/ws/files/101278233/Super-Resolution_Reconstruction_of_OCTA_via_Multi-field-of-view_Representation_Learning.pdf",
+    "source_type": "paper figure"
+  },
+  {
+    "id": "pub-009",
+    "title": "SurfGNN: A robust surface-based prediction model with interpretability for coactivation maps of spatial and cortical features",
+    "paper_url": "https://doi.org/10.1016/j.media.2025.103793",
+    "image": "/assets/img/publications/pub-009.webp",
+    "image_source": "https://ars.els-cdn.com/content/image/1-s2.0-S1361841525003391-gr1.jpg",
+    "source_type": "paper/project image"
+  },
+  {
+    "id": "pub-010",
+    "title": "3D microvascular reconstruction in retinal OCT angiography images via domain-adaptive learning",
+    "paper_url": "https://doi.org/10.1016/j.patcog.2025.111494",
+    "image": "/assets/img/publications/pub-010.webp",
+    "image_source": "https://ars.els-cdn.com/content/image/1-s2.0-S0031320325001542-gr1.jpg",
+    "source_type": "paper/project image"
+  },
+  {
+    "id": "pub-011",
+    "title": "Automating vessel segmentation in the heart and brain: A trend to develop multi-modality and label-efficient deep learning techniques",
+    "paper_url": "https://doi.org/10.1016/j.bspc.2025.108028",
+    "image": "/assets/img/publications/pub-011.webp",
+    "image_source": "https://ars.els-cdn.com/content/image/1-s2.0-S1746809425005397-gr1.jpg",
+    "source_type": "paper/project image"
+  },
+  {
+    "id": "pub-012",
+    "title": "CLIP-DSA: Textual Knowledge-Guided Cerebrovascular Diseases Recognition in Multi-view Digital Subtraction Angiography",
+    "paper_url": "https://doi.org/10.1007/978-3-032-04978-0_7",
+    "image": "/assets/img/publications/pub-012.webp",
+    "image_source": "https://github.com/jiongzhang-john/CLIP-DSA/blob/main/images/GradCAM.png",
+    "source_type": "author project image"
+  },
+  {
+    "id": "pub-013",
+    "title": "Cross-Modal Graph Learning for Perivascular Spaces Segmentation",
+    "paper_url": "https://doi.org/10.1007/978-3-032-04965-0_11",
+    "image": "/assets/img/publications/pub-013.webp",
+    "image_source": "https://link.springer.com/content/pdf/10.1007/978-3-032-04965-0_11.pdf?error=cookies_not_supported&code=0b91f54b-96c3-428b-9266-7e44300b8258",
+    "source_type": "paper figure"
+  },
+  {
+    "id": "pub-014",
+    "title": "Dilation-Assisted Contrastive Learning for Corneal Nerve Segmentation in Corneal Confocal Microscopy",
+    "paper_url": "https://doi.org/10.1109/ISBI60581.2025.10980716",
+    "image": "",
+    "image_source": "",
+    "source_type": ""
+  },
+  {
+    "id": "pub-015",
+    "title": "DSCA: A Digital Subtraction Angiography Sequence Dataset and Spatio-Temporal Model for Cerebral Artery Segmentation",
+    "paper_url": "https://ieeexplore.ieee.org/abstract/document/10884618",
+    "image": "/assets/img/publications/pub-015.webp",
+    "image_source": "https://github.com/jiongzhang-john/DSCA/blob/main/images/label.png",
+    "source_type": "author project image"
+  },
+  {
+    "id": "pub-016",
+    "title": "Guest Editorial: Special Issue on Foundation Models in Medical Imaging",
+    "paper_url": "https://doi.org/10.1109/JBHI.2025.3633963",
+    "image": "/assets/img/publications/pub-016.webp",
+    "image_source": "https://github.com/jiongzhang-john/Foundation-Models-in-Medical-Imaging/blob/main/Assets/FMs-Figure.jpg",
+    "source_type": "author project image"
+  },
+  {
+    "id": "pub-017",
+    "title": "MR²-Net: Retinal OCTA Image Stitching via Multi-Scale Representation Learning and Dynamic Location Guidance",
+    "paper_url": "https://ieeexplore.ieee.org/document/10693543",
+    "image": "/assets/img/publications/pub-017.webp",
+    "image_source": "https://github.com/jiongzhang-john/OCTA-Stitching-Dataset/blob/main/label1.png",
+    "source_type": "author project image"
+  },
+  {
+    "id": "pub-018",
+    "title": "Msapnet: Multi-Scale and Multi-Axial Perception Network for Retinal Layers and Lesion Segmentation",
+    "paper_url": "https://doi.org/10.1109/ISBI60581.2025.10980697",
+    "image": "",
+    "image_source": "",
+    "source_type": ""
+  },
+  {
+    "id": "pub-019",
+    "title": "Neovascularization Segmentation via a Multilateral Interaction-Enhanced Graph Convolutional Network",
+    "paper_url": "https://ieeexplore.ieee.org/abstract/document/11130403",
+    "image": "/assets/img/publications/pub-019.webp",
+    "image_source": "https://github.com/jiongzhang-john/CNVSeg-Dataset/blob/main/images/dataset.png",
+    "source_type": "author project image"
+  },
+  {
+    "id": "pub-020",
+    "title": "Prompt Mechanisms in Medical Imaging: A Comprehensive Survey",
+    "paper_url": "https://doi.org/10.48550/arXiv.2507.01055",
+    "image": "/assets/img/publications/pub-020.webp",
+    "image_source": "https://arxiv.org/pdf/2507.01055",
+    "source_type": "paper figure"
+  },
+  {
+    "id": "pub-021",
+    "title": "RSAPower: Random Style Augmentation Driven Structure Perception Network for Generalized Retinal OCT Fluid Segmentation",
+    "paper_url": "https://ieeexplore.ieee.org/abstract/document/10845837",
+    "image": "",
+    "image_source": "",
+    "source_type": ""
+  },
+  {
+    "id": "pub-022",
+    "title": "S2A-Net: Retinal structure segmentation in OCTA images through a spatially self-aware multitask network",
+    "paper_url": "https://doi.org/10.1016/j.bspc.2025.108003",
+    "image": "/assets/img/publications/pub-022.webp",
+    "image_source": "https://ars.els-cdn.com/content/image/1-s2.0-S1746809425005142-gr1.jpg",
+    "source_type": "paper/project image"
+  },
+  {
+    "id": "pub-023",
+    "title": "A Hyperreflective Foci Segmentation Network for OCT Images with Multi-dimensional Semantic Enhancement",
+    "paper_url": "https://doi.org/10.1007/978-3-031-72378-0_60",
+    "image": "/assets/img/publications/pub-023.webp",
+    "image_source": "https://link.springer.com/content/pdf/10.1007/978-3-031-72378-0_60.pdf?error=cookies_not_supported&code=725df832-3517-451d-b2c3-c834f0772fce",
+    "source_type": "paper figure"
+  },
+  {
+    "id": "pub-024",
+    "title": "A ranking-based multi-scale feature calibration network for nuclear cataract grading in AS-OCT images",
+    "paper_url": "https://doi.org/10.1016/j.bspc.2023.105836",
+    "image": "/assets/img/publications/pub-024.webp",
+    "image_source": "https://ars.els-cdn.com/content/image/1-s2.0-S1746809423012697-gr1.jpg",
+    "source_type": "paper/project image"
+  },
+  {
+    "id": "pub-025",
+    "title": "BSANet: Boundary-aware and scale-aggregation networks for CMR image segmentation",
+    "paper_url": "https://doi.org/10.1016/j.neucom.2024.128125",
+    "image": "/assets/img/publications/pub-025.webp",
+    "image_source": "https://ars.els-cdn.com/content/image/1-s2.0-S0925231224008968-gr1.jpg",
+    "source_type": "paper/project image"
+  },
+  {
+    "id": "pub-026",
+    "title": "Clinical Insight-Augmented Multi-View Learning for Alzheimer's Detection in Retinal OCTA Images",
+    "paper_url": "https://doi.org/10.1109/BIBM62325.2024.10822671",
+    "image": "/assets/img/publications/pub-026.webp",
+    "image_source": "https://research.edgehill.ac.uk/ws/files/95181617/BIBM2024_ZYD_CAMERAREADY.pdf",
+    "source_type": "paper figure"
+  },
+  {
+    "id": "pub-027",
+    "title": "CLIP-DR: Textual Knowledge-Guided Diabetic Retinopathy Grading with Ranking-Aware Prompting",
+    "paper_url": "https://doi.org/10.1007/978-3-031-72378-0_62",
+    "image": "/assets/img/publications/pub-027.webp",
+    "image_source": "https://github.com/Qinkaiyu/CLIP-DR/blob/main/FIG.png",
+    "source_type": "author project image"
+  },
+  {
+    "id": "pub-028",
+    "title": "COSTA: A Multi-Center TOF-MRA Dataset and a Style Self-Consistency Network for Cerebrovascular Segmentation",
+    "paper_url": "https://doi.org/10.1109/TMI.2024.3424976",
+    "image": "/assets/img/publications/pub-028.webp",
+    "image_source": "https://lirias.kuleuven.be/retrieve/59737570-85d6-42a1-b06d-b53598eeb757",
+    "source_type": "paper figure"
+  },
+  {
+    "id": "pub-029",
+    "title": "DSNet: A Spatio-Temporal Consistency Network for Cerebrovascular Segmentation in Digital Subtraction Angiography Sequences",
+    "paper_url": "https://doi.org/10.1007/978-3-031-72111-3_19",
+    "image": "/assets/img/publications/pub-029.webp",
+    "image_source": "https://link.springer.com/content/pdf/10.1007/978-3-031-72111-3_19.pdf?error=cookies_not_supported&code=41212190-e424-43ce-8312-64b13c81beea",
+    "source_type": "paper figure"
+  },
+  {
+    "id": "pub-030",
+    "title": "Early detection of dementia through retinal imaging and trustworthy AI",
+    "paper_url": "https://doi.org/10.1038/s41746-024-01292-5",
+    "image": "/assets/img/publications/pub-030.webp",
+    "image_source": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41746-024-01292-5/MediaObjects/41746_2024_1292_Fig1_HTML.png",
+    "source_type": "paper/project image"
+  },
+  {
+    "id": "pub-031",
+    "title": "GAPNet: Granularity Attention Network with Anatomy-Prior-Constraint for Carotid Artery Segmentation",
+    "paper_url": "https://doi.org/10.48550/arXiv.2406.19485",
+    "image": "/assets/img/publications/pub-031.webp",
+    "image_source": "https://arxiv.org/pdf/2406.19485",
+    "source_type": "paper figure"
+  },
+  {
+    "id": "pub-032",
+    "title": "MPMNet: Modal Prior Mutual-Support Network for Age-Related Macular Degeneration Classification",
+    "paper_url": "https://doi.org/10.1007/978-3-031-72378-0_68",
+    "image": "/assets/img/publications/pub-032.webp",
+    "image_source": "https://link.springer.com/content/pdf/10.1007/978-3-031-72378-0_68.pdf?error=cookies_not_supported&code=06850706-c913-4e29-ae77-1058bc48f111",
+    "source_type": "paper figure"
+  },
+  {
+    "id": "pub-033",
+    "title": "Self-Guided Adversarial Network for Domain Adaptive Retinal Layer Segmentation",
+    "paper_url": "https://doi.org/10.1109/TIM.2024.3440388",
+    "image": "",
+    "image_source": "",
+    "source_type": ""
+  },
+  {
+    "id": "pub-034",
+    "title": "A Hybrid Supervised Fusion Deep Learning Framework for Microscope Multi-Focus Images",
+    "paper_url": "https://doi.org/10.1007/978-3-031-50078-7_17",
+    "image": "/assets/img/publications/pub-034.webp",
+    "image_source": "https://link.springer.com/content/pdf/10.1007/978-3-031-50078-7_17.pdf?error=cookies_not_supported&code=f4461754-5622-42ad-85aa-ed9830a65318",
+    "source_type": "paper figure"
+  },
+  {
+    "id": "pub-035",
+    "title": "Automatic choroid layer segmentation in OCT images via context efficient adaptive network",
+    "paper_url": "https://doi.org/10.1007/s10489-022-03723-w",
+    "image": "/assets/img/publications/pub-035.webp",
+    "image_source": "https://link.springer.com/content/pdf/10.1007/s10489-022-03723-w.pdf?error=cookies_not_supported&code=5e5d49ec-c0f9-4f7c-91ae-89563df7624a",
+    "source_type": "paper figure"
+  },
+  {
+    "id": "pub-036",
+    "title": "AV-casNet: Fully Automatic Arteriole-Venule Segmentation and Differentiation in OCT Angiography",
+    "paper_url": "https://doi.org/10.1109/TMI.2022.3214291",
+    "image": "",
+    "image_source": "",
+    "source_type": ""
+  },
+  {
+    "id": "pub-037",
+    "title": "Dual-Path and Multi-Scale Enhanced Attention Network for Retinal Diseases Classification Using Ultra-Wide-Field Images",
+    "paper_url": "https://doi.org/10.1109/ACCESS.2023.3273613",
+    "image": "",
+    "image_source": "",
+    "source_type": ""
+  },
+  {
+    "id": "pub-038",
+    "title": "Polar-Net: A Clinical-Friendly Model for Alzheimer's Disease Detection in OCTA Images",
+    "paper_url": "https://doi.org/10.1007/978-3-031-43990-2_57",
+    "image": "/assets/img/publications/pub-038.webp",
+    "image_source": "https://arxiv.org/pdf/2311.06009",
+    "source_type": "paper figure"
+  },
+  {
+    "id": "pub-039",
+    "title": "Privileged Modality Guided Network for Retinal Vessel Segmentation in Ultra-Wide-Field Images",
+    "paper_url": "https://doi.org/10.1007/978-3-031-44013-7_9",
+    "image": "/assets/img/publications/pub-039.webp",
+    "image_source": "https://link.springer.com/content/pdf/10.1007/978-3-031-44013-7_9.pdf?error=cookies_not_supported&code=c5ae0d34-2e09-43bd-bd13-9caa4c87f2f6",
+    "source_type": "paper figure"
+  },
+  {
+    "id": "pub-040",
+    "title": "RBGNet: Reliable Boundary-Guided Segmentation of Choroidal Neovascularization",
+    "paper_url": "https://doi.org/10.1007/978-3-031-43901-8_16",
+    "image": "/assets/img/publications/pub-040.webp",
+    "image_source": "https://link.springer.com/content/pdf/10.1007/978-3-031-43901-8_16.pdf?error=cookies_not_supported&code=fe3508bc-106d-4e07-b17f-fa1c82e71082",
+    "source_type": "paper figure"
+  },
+  {
+    "id": "pub-041",
+    "title": "Shape-Aware 3D Small Vessel Segmentation with Local Contrast Guided Attention",
+    "paper_url": "https://doi.org/10.1007/978-3-031-43901-8_34",
+    "image": "/assets/img/publications/pub-041.webp",
+    "image_source": "https://link.springer.com/content/pdf/10.1007/978-3-031-43901-8_34.pdf?error=cookies_not_supported&code=2aeb1e86-7e2f-4be2-824f-f00e613e8352",
+    "source_type": "paper figure"
+  },
+  {
+    "id": "pub-042",
+    "title": "SPC-Net: Structure-Aware Pixel-Level Contrastive Learning Network for OCTA A/V Segmentation and Differentiation",
+    "paper_url": "https://doi.org/10.1007/978-3-031-50069-5_20",
+    "image": "/assets/img/publications/pub-042.webp",
+    "image_source": "https://link.springer.com/content/pdf/10.1007/978-3-031-50069-5_20.pdf?error=cookies_not_supported&code=27ac744a-405d-495d-b46b-f67b14d5ab6c",
+    "source_type": "paper figure"
+  },
+  {
+    "id": "pub-043",
+    "title": "Structure Constrained Diffusion Models for Pterygium Segmentation",
+    "paper_url": "https://doi.org/10.1109/ISBI53787.2023.10230558",
+    "image": "/assets/img/publications/pub-043.webp",
+    "image_source": "https://dyh28w2y3a9av.cloudfront.net/public/SPSISBI23VID0278/SPSISBI23VID0278.jpg",
+    "source_type": "paper/project image"
+  },
+  {
+    "id": "pub-044",
+    "title": "Anomaly Segmentation in Retinal Images with Poisson-Blending Data Augmentation",
+    "paper_url": "https://www.sciencedirect.com/science/article/abs/pii/S1361841522001815",
+    "image": "/assets/img/publications/pub-044.webp",
+    "image_source": "https://ars.els-cdn.com/content/image/1-s2.0-S1361841522001815-gr1.jpg",
+    "source_type": "paper/project image"
+  },
+  {
+    "id": "pub-045",
+    "title": "DeepGrading: Deep Learning Grading of Corneal Nerve Tortuosity",
+    "paper_url": "https://doi.org/10.1109/TMI.2022.3156906",
+    "image": "/assets/img/publications/pub-045.webp",
+    "image_source": "https://research.edgehill.ac.uk/ws/files/48209569/paper.pdf",
+    "source_type": "paper figure"
+  },
+  {
+    "id": "pub-046",
+    "title": "DeLashNet: A Deep Network for Eyelash Artifact Removal in Ultra-Wide-Field Fundus Images",
+    "paper_url": "https://doi.org/10.1145/3561613.3561649",
+    "image": "",
+    "image_source": "",
+    "source_type": ""
+  },
+  {
+    "id": "pub-047",
+    "title": "Multi-Scale Pathological Fluid Segmentation in OCT With a Novel Curvature Loss in Convolutional Neural Network",
+    "paper_url": "https://doi.org/10.1109/TMI.2022.3142048",
+    "image": "",
+    "image_source": "",
+    "source_type": ""
+  },
+  {
+    "id": "pub-048",
+    "title": "NerveFormer: A Cross-Sample Aggregation Network for Corneal Nerve Segmentation",
+    "paper_url": "https://doi.org/10.1007/978-3-031-16440-8_8",
+    "image": "/assets/img/publications/pub-048.webp",
+    "image_source": "https://link.springer.com/content/pdf/10.1007/978-3-031-16440-8_8.pdf?error=cookies_not_supported&code=ddf407e9-b4ed-462e-8873-6845c49e4a5c",
+    "source_type": "paper figure"
+  },
+  {
+    "id": "pub-049",
+    "title": "Retinal Structure Detection in OCTA Image via Voting-based Multi-task Learning",
+    "paper_url": "https://doi.org/10.48550/arXiv.2208.10745",
+    "image": "/assets/img/publications/pub-049.webp",
+    "image_source": "https://arxiv.org/pdf/2208.10745",
+    "source_type": "paper figure"
+  },
+  {
+    "id": "pub-050",
+    "title": "Retinal Structure Detection in OCTA Image via Voting-Based Multitask Learning",
+    "paper_url": "https://doi.org/10.1109/TMI.2022.3202183",
+    "image": "/assets/img/publications/pub-050.webp",
+    "image_source": "https://arxiv.org/pdf/2208.10745",
+    "source_type": "paper figure"
+  },
+  {
+    "id": "pub-051",
+    "title": "Sparse-Based Domain Adaptation Network for OCTA Image Super-Resolution Reconstruction",
+    "paper_url": "https://doi.org/10.1109/JBHI.2022.3194025",
+    "image": "/assets/img/publications/pub-051.webp",
+    "image_source": "https://arxiv.org/pdf/2207.11882",
+    "source_type": "paper figure"
+  },
+  {
+    "id": "pub-052",
+    "title": "Topology-Aware Learning for Semi-supervised Cross-domain Retinal Artery/Vein Classification",
+    "paper_url": "https://doi.org/10.1007/978-3-031-23473-6_4",
+    "image": "/assets/img/publications/pub-052.webp",
+    "image_source": "https://link.springer.com/content/pdf/10.1007/978-3-031-23473-6_4.pdf?error=cookies_not_supported&code=b386ab6d-5384-485f-b371-8fd96a590d7b",
+    "source_type": "paper figure"
+  },
+  {
+    "id": "pub-053",
+    "title": "Uncertainty-guided graph attention network for parapneumonic effusion diagnosis",
+    "paper_url": "https://doi.org/10.1016/j.media.2021.102217",
+    "image": "/assets/img/publications/pub-053.webp",
+    "image_source": "https://ars.els-cdn.com/content/image/1-s2.0-S1361841521002620-gr1.jpg",
+    "source_type": "paper/project image"
+  },
+  {
+    "id": "pub-054",
+    "title": "Unsupervised Lesion-Aware Transfer Learning for Diabetic Retinopathy Grading in Ultra-Wide-Field Fundus Photography",
+    "paper_url": "https://doi.org/10.1007/978-3-031-16434-7_54",
+    "image": "/assets/img/publications/pub-054.webp",
+    "image_source": "https://link.springer.com/content/pdf/10.1007/978-3-031-16434-7_54.pdf?error=cookies_not_supported&code=64f33b11-23e6-468c-bce7-d960f2d9d917",
+    "source_type": "paper figure"
+  },
+  {
+    "id": "pub-055",
+    "title": "3D Vessel Reconstruction In Oct-Angiography Via Depth Map Estimation",
+    "paper_url": "https://doi.org/10.1109/ISBI48211.2021.9434042",
+    "image": "/assets/img/publications/pub-055.webp",
+    "image_source": "https://arxiv.org/pdf/2102.13588",
+    "source_type": "paper figure"
+  },
+  {
+    "id": "pub-056",
+    "title": "A Hybrid DCNN-SVM Model for Classifying Neonatal Sleep and Wake States Based on Facial Expressions in Video",
+    "paper_url": "https://doi.org/10.1109/JBHI.2021.3073632",
+    "image": "/assets/img/publications/pub-056.webp",
+    "image_source": "https://pure.tue.nl/ws/files/182742578/A_Hybrid_DCNN_SVM_Model_for_Classifying_Neonatal_Sleep_and_Wake_States_Based_on_Facial_Expressions_in_Video.pdf",
+    "source_type": "paper figure"
+  },
+  {
+    "id": "pub-057",
+    "title": "Angle-closure assessment in anterior segment OCT images via deep learning",
+    "paper_url": "https://doi.org/10.1016/j.media.2021.101956",
+    "image": "/assets/img/publications/pub-057.webp",
+    "image_source": "https://ars.els-cdn.com/content/image/1-s2.0-S1361841521000025-gr1.jpg",
+    "source_type": "paper/project image"
+  },
+  {
+    "id": "pub-058",
+    "title": "Cross-Domain Depth Estimation Network for 3D Vessel Reconstruction in OCT Angiography",
+    "paper_url": "https://doi.org/10.1007/978-3-030-87237-3_2",
+    "image": "/assets/img/publications/pub-058.webp",
+    "image_source": "https://link.springer.com/content/pdf/10.1007/978-3-030-87237-3_2.pdf?error=cookies_not_supported&code=9c191702-af71-42bd-9310-151d57cc27e7",
+    "source_type": "paper figure"
+  },
+  {
+    "id": "pub-059",
+    "title": "Guided Adversarial Adaptation Network for Retinal and Choroidal Layer Segmentation",
+    "paper_url": "https://doi.org/10.1007/978-3-030-87000-3_9",
+    "image": "/assets/img/publications/pub-059.webp",
+    "image_source": "https://link.springer.com/content/pdf/10.1007/978-3-030-87000-3_9.pdf?error=cookies_not_supported&code=95995105-053f-41cb-95b9-78bee439e62c",
+    "source_type": "paper figure"
+  },
+  {
+    "id": "pub-060",
+    "title": "Past, present and future role of retinal imaging in neurodegenerative disease",
+    "paper_url": "https://doi.org/10.1016/j.preteyeres.2020.100938",
+    "image": "/assets/img/publications/pub-060.webp",
+    "image_source": "https://ars.els-cdn.com/content/image/1-s2.0-S1350946220301105-gr1.jpg",
+    "source_type": "paper/project image"
+  },
+  {
+    "id": "pub-061",
+    "title": "Personalized Matching and Analysis of Cortical Folding Patterns via Patch-Based Intrinsic Brain Mapping",
+    "paper_url": "https://link.springer.com/chapter/10.1007/978-3-030-87234-2_67",
+    "image": "/assets/img/publications/pub-061.webp",
+    "image_source": "https://media.springernature.com/lw685/springer-static/image/chp%3A10.1007%2F978-3-030-87234-2_67/MediaObjects/521402_1_En_67_Fig1_HTML.png",
+    "source_type": "paper/project image"
+  },
+  {
+    "id": "pub-062",
+    "title": "ROSE: A Retinal OCT-Angiography Vessel Segmentation Dataset and New Model",
+    "paper_url": "https://doi.org/10.1109/TMI.2020.3042802",
+    "image": "/assets/img/publications/pub-062.webp",
+    "image_source": "https://arxiv.org/pdf/2007.05201",
+    "source_type": "paper figure"
+  },
+  {
+    "id": "pub-063",
+    "title": "Structure and Illumination Constrained GAN for Medical Image Enhancement",
+    "paper_url": "https://doi.org/10.1109/TMI.2021.3101937",
+    "image": "/assets/img/publications/pub-063.webp",
+    "image_source": "https://research.edgehill.ac.uk/ws/files/45768549/FINAL_VERSION.pdf",
+    "source_type": "paper figure"
+  },
+  {
+    "id": "pub-064",
+    "title": "3D Retinal Vessel Density Mapping With OCT-Angiography",
+    "paper_url": "https://doi.org/10.1109/JBHI.2020.3023308",
+    "image": "/assets/img/publications/pub-064.webp",
+    "image_source": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1f3a/7737654/1117be96a31d/nihms-1652339-f0001.jpg",
+    "source_type": "paper/project image"
+  },
+  {
+    "id": "pub-065",
+    "title": "3D Shape Modeling and Analysis of Retinal Microvasculature in OCT-Angiography Images",
+    "paper_url": "https://doi.org/10.1109/TMI.2019.2948867",
+    "image": "/assets/img/publications/pub-065.webp",
+    "image_source": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/27ba/7174137/f6753c3069ea/nihms-1055657-f0001.jpg",
+    "source_type": "paper/project image"
+  },
+  {
+    "id": "pub-066",
+    "title": "Automated Deformation-Based Analysis of 3D Optical Coherence Tomography in Diabetic Retinopathy",
+    "paper_url": "https://doi.org/10.1109/TMI.2019.2924452",
+    "image": "/assets/img/publications/pub-066.webp",
+    "image_source": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5dc5/6928449/ae6da2203f40/nihms-1055626-f0001.jpg",
+    "source_type": "paper/project image"
+  },
+  {
+    "id": "pub-067",
+    "title": "Automated Tortuosity Analysis of Nerve Fibers in Corneal Confocal Microscopy",
+    "paper_url": "https://doi.org/10.1109/TMI.2020.2974499",
+    "image": "/assets/img/publications/pub-067.webp",
+    "image_source": "https://dspace.lib.cranfield.ac.uk/server/api/core/bitstreams/027bae51-c421-4138-8e16-89c53aec44de/content",
+    "source_type": "paper figure"
+  },
+  {
+    "id": "pub-068",
+    "title": "Automatic Tortuosity Estimation of Nerve Fibers and Retinal Vessels in Ophthalmic Images",
+    "paper_url": "https://doi.org/10.3390/app10144788",
+    "image": "/assets/img/publications/pub-068.webp",
+    "image_source": "https://mdpi-res.com/d_attachment/applsci/applsci-10-04788/article_deploy/html/images/applsci-10-04788-g001.png",
+    "source_type": "paper/project image"
+  },
+  {
+    "id": "pub-069",
+    "title": "Corrections to \"Automated Tortuosity Analysis of Nerve Fibers in Corneal Confocal Microscopy\"",
+    "paper_url": "https://doi.org/10.1109/TMI.2020.3023201",
+    "image": "/assets/img/publications/pub-069.webp",
+    "image_source": "https://dspace.lib.cranfield.ac.uk/server/api/core/bitstreams/027bae51-c421-4138-8e16-89c53aec44de/content",
+    "source_type": "paper figure"
+  },
+  {
+    "id": "pub-070",
+    "title": "Trajectory Grouping with Curvature Regularization for Tubular Structure Tracking",
+    "paper_url": "https://arxiv.org/abs/2003.03710",
+    "image": "/assets/img/publications/pub-070.webp",
+    "image_source": "https://arxiv.org/pdf/2003.03710",
+    "source_type": "paper figure"
+  },
+  {
+    "id": "pub-071",
+    "title": "3D Surface-Based Geometric and Topological Quantification of Retinal Microvasculature in OCT-Angiography via Reeb Analysis",
+    "paper_url": "https://doi.org/10.1007/978-3-030-32239-7_7",
+    "image": "/assets/img/publications/pub-071.webp",
+    "image_source": "https://link.springer.com/content/pdf/10.1007/978-3-030-32239-7_7.pdf?error=cookies_not_supported&code=46846065-be50-4505-a5a1-7d188a0e553c",
+    "source_type": "paper figure"
+  },
+  {
+    "id": "pub-072",
+    "title": "A fully automated pipeline of extracting biomarkers to quantify vascular changes in retina-related diseases",
+    "paper_url": "https://doi.org/10.1080/21681163.2018.1519851",
+    "image": "/assets/img/publications/pub-072.webp",
+    "image_source": "https://pure.tue.nl/ws/portalfiles/portal/139040343/A_fully_automated_pipeline_of_extracting_biomarkers_to_quantify_vascular_changes_in_retina_related_diseases.pdf",
+    "source_type": "paper figure"
+  },
+  {
+    "id": "pub-073",
+    "title": "Minimal Paths for Tubular Structure Segmentation With Coherence Penalty and Adaptive Anisotropy",
+    "paper_url": "https://doi.org/10.1109/TIP.2018.2874282",
+    "image": "/assets/img/publications/pub-073.webp",
+    "image_source": "https://arxiv.org/pdf/1809.07987",
+    "source_type": "paper figure"
+  },
+  {
+    "id": "pub-074",
+    "title": "Multi-Modal and Multi-Vendor Retina Image Registration",
+    "paper_url": "https://doi.org/10.1364/BOE.9.000410",
+    "image": "/assets/img/publications/pub-074.webp",
+    "image_source": "https://pure.tue.nl/ws/files/93318428/boe_9_2_410.pdf",
+    "source_type": "paper figure"
+  },
+  {
+    "id": "pub-075",
+    "title": "Reconnection of Interrupted Curvilinear Structures via Cortically Inspired Completion for Ophthalmologic Images",
+    "paper_url": "https://doi.org/10.1109/TBME.2017.2787025",
+    "image": "/assets/img/publications/pub-075.webp",
+    "image_source": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/97ad/6880863/4c8dde2aa726/nihms-1054931-f0001.jpg",
+    "source_type": "paper/project image"
+  },
+  {
+    "id": "pub-076",
+    "title": "Retinal Microaneurysms Detection Using Local Convergence Index Features",
+    "paper_url": "https://doi.org/10.1109/TIP.2018.2815345",
+    "image": "/assets/img/publications/pub-076.webp",
+    "image_source": "https://arxiv.org/pdf/1707.06865",
+    "source_type": "paper figure"
+  },
+  {
+    "id": "pub-077",
+    "title": "A Comparative Study Towards the Establishment of an Automatic Retinal Vessel Width Measurement Technique",
+    "paper_url": "https://doi.org/10.1007/978-3-319-67561-9_26",
+    "image": "/assets/img/publications/pub-077.webp",
+    "image_source": "https://link.springer.com/content/pdf/10.1007/978-3-319-67561-9_26.pdf?error=cookies_not_supported&code=1c980a69-84dc-44c4-aa2d-902c0abbaefa",
+    "source_type": "paper figure"
+  },
+  {
+    "id": "pub-078",
+    "title": "Retinal health information and notification system (RHINO)",
+    "paper_url": "https://doi.org/10.1117/12.2253839",
+    "image": "",
+    "image_source": "",
+    "source_type": ""
+  },
+  {
+    "id": "pub-079",
+    "title": "Retinal vessel delineation using a brain-inspired wavelet transform and random forest",
+    "paper_url": "https://doi.org/10.1016/j.patcog.2017.04.008",
+    "image": "/assets/img/publications/pub-079.webp",
+    "image_source": "https://ars.els-cdn.com/content/image/1-s2.0-S0031320317301498-gr1.jpg",
+    "source_type": "paper/project image"
+  },
+  {
+    "id": "pub-080",
+    "title": "Retrieving challenging vessel connections in retinal images by line co-occurrence statistics",
+    "paper_url": "https://doi.org/10.1007/s00422-017-0718-x",
+    "image": "/assets/img/publications/pub-080.webp",
+    "image_source": "https://arxiv.org/pdf/1610.06368",
+    "source_type": "paper figure"
+  },
+  {
+    "id": "pub-081",
+    "title": "Automatic Optic Disc and Fovea Detection in Retinal Images Using Super-Elliptical Convergence Index Filters",
+    "paper_url": "https://doi.org/10.1007/978-3-319-41501-7_78",
+    "image": "/assets/img/publications/pub-081.webp",
+    "image_source": "https://link.springer.com/content/pdf/10.1007/978-3-319-41501-7_78.pdf?error=cookies_not_supported&code=5ebdfd97-f38d-4bd7-aa3a-78ca28f9fd04",
+    "source_type": "paper figure"
+  },
+  {
+    "id": "pub-082",
+    "title": "Brain-inspired algorithms for retinal image analysis",
+    "paper_url": "https://doi.org/10.1007/s00138-016-0771-9",
+    "image": "/assets/img/publications/pub-082.webp",
+    "image_source": "https://link.springer.com/content/pdf/10.1007/s00138-016-0771-9.pdf?error=cookies_not_supported&code=35e77698-99ed-4fe0-992a-e55a52529b72",
+    "source_type": "paper figure"
+  },
+  {
+    "id": "pub-083",
+    "title": "Robust Retinal Vessel Segmentation via Locally Adaptive Derivative Frames in Orientation Scores",
+    "paper_url": "https://doi.org/10.1109/TMI.2016.2587062",
+    "image": "/assets/img/publications/pub-083.webp",
+    "image_source": "https://pure.tue.nl/ws/files/45862136/07530915.pdf",
+    "source_type": "paper figure"
+  }
+]

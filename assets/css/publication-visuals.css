@@ -1,4 +1,4 @@
-/* Semantic publication thumbnails and motion enhancements */
+/* Real publication figures and restrained motion enhancements */
 .publication-page .publication-list {
   border-left-color: #cdddea;
 }
@@ -17,6 +17,10 @@
     transform 0.55s cubic-bezier(0.22, 1, 0.36, 1),
     box-shadow 0.24s ease,
     border-color 0.24s ease;
+}
+
+.publication-page .publication-item--no-visual {
+  grid-template-columns: 15px minmax(0, 1fr);
 }
 
 .publication-page .publication-item:hover,
@@ -41,8 +45,13 @@
 }
 
 .publication-page .publication-item > div:last-child {
+  grid-column: 3;
   min-width: 0;
   align-self: center;
+}
+
+.publication-page .publication-item--no-visual > div:last-child {
+  grid-column: 2;
 }
 
 .publication-page .publication-visual {
@@ -52,12 +61,10 @@
   aspect-ratio: 11 / 7;
   margin: 0;
   overflow: hidden;
-  border: 1px solid rgba(255, 255, 255, 0.58);
+  border: 1px solid #d8e3ec;
   border-radius: 12px;
-  background: #132f4c;
-  box-shadow:
-    0 9px 24px rgba(15, 42, 69, 0.16),
-    inset 0 0 0 1px rgba(255, 255, 255, 0.08);
+  background: #f4f7f9;
+  box-shadow: 0 9px 24px rgba(15, 42, 69, 0.14);
   isolation: isolate;
 }
 
@@ -67,55 +74,30 @@
   width: 42%;
   content: "";
   pointer-events: none;
-  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.28), transparent);
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.5), transparent);
   transform: skewX(-18deg) translateX(0);
   opacity: 0;
 }
 
-.publication-page .publication-visual svg {
+.publication-page .publication-visual img {
   display: block;
   width: 100%;
   height: 100%;
+  object-fit: contain;
+  background: #ffffff;
   transform: scale(1.002);
   transition: transform 0.45s cubic-bezier(0.22, 1, 0.36, 1), filter 0.35s ease;
 }
 
-.publication-page .publication-item:hover .publication-visual svg,
-.publication-page .publication-item:focus-within .publication-visual svg {
-  transform: scale(1.055);
-  filter: saturate(1.08) brightness(1.04);
+.publication-page .publication-item:hover .publication-visual img,
+.publication-page .publication-item:focus-within .publication-visual img {
+  transform: scale(1.045);
+  filter: saturate(1.06) contrast(1.02);
 }
 
 .publication-page .publication-item:hover .publication-visual::after,
 .publication-page .publication-item:focus-within .publication-visual::after {
   animation: publicationShine 0.85s ease-out both;
-}
-
-.publication-page .pub-visual-label {
-  font: 700 6.8px/1.1 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  letter-spacing: 0.13em;
-}
-
-.publication-page .pub-visual-index {
-  font: 700 6.2px/1 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  letter-spacing: 0.08em;
-}
-
-.publication-page .pub-scan {
-  transform-box: fill-box;
-  transform-origin: center;
-  opacity: 0;
-}
-
-.publication-page .publication-item.is-in-view .pub-scan {
-  animation: publicationScan 5.6s ease-in-out infinite;
-  animation-delay: var(--visual-delay, 0ms);
-}
-
-.publication-page .publication-item:hover .pub-flow,
-.publication-page .publication-item:focus-within .pub-flow {
-  stroke-dasharray: 5 4;
-  animation: publicationFlow 1.3s linear infinite;
 }
 
 .publication-page.publication-motion .publication-item:not(.is-visible) {
@@ -145,25 +127,18 @@
 
 @keyframes publicationShine {
   0% { opacity: 0; transform: skewX(-18deg) translateX(0); }
-  24% { opacity: 0.7; }
+  24% { opacity: 0.72; }
   100% { opacity: 0; transform: skewX(-18deg) translateX(420%); }
-}
-
-@keyframes publicationScan {
-  0%, 18% { opacity: 0; transform: translateY(-7px); }
-  28% { opacity: 0.8; }
-  72% { opacity: 0.48; }
-  86%, 100% { opacity: 0; transform: translateY(55px); }
-}
-
-@keyframes publicationFlow {
-  to { stroke-dashoffset: -18; }
 }
 
 @media (max-width: 760px) {
   .publication-page .publication-item {
     grid-template-columns: 15px 126px minmax(0, 1fr);
     gap: 0.75rem;
+  }
+
+  .publication-page .publication-item--no-visual {
+    grid-template-columns: 15px minmax(0, 1fr);
   }
 
   .publication-page .publication-item h3 {
@@ -177,6 +152,10 @@
     gap: 0.62rem;
     margin-left: 0.62rem;
     padding: 0.72rem 0.72rem 0.72rem 0;
+  }
+
+  .publication-page .publication-list .publication-item--no-visual {
+    grid-template-columns: 15px minmax(0, 1fr);
   }
 
   .publication-page .publication-visual {
@@ -212,7 +191,7 @@
   }
 
   .publication-page .publication-item,
-  .publication-page .publication-visual svg,
+  .publication-page .publication-visual img,
   .publication-page .publication-dot,
   .publication-page .publication-links a {
     transition: none !important;
@@ -223,8 +202,6 @@
     transform: none;
   }
 
-  .publication-page .publication-item .pub-scan,
-  .publication-page .publication-item .pub-flow,
   .publication-page .publication-visual::after {
     animation: none !important;
   }
