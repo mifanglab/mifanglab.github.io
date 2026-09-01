@@ -1,0 +1,25 @@
+.navbar .home-link {
+  display: inline-flex;
+  align-items: center;
+  height: 2.2rem;
+  gap: .55rem;
+}
+
+.navbar .home-link::before {
+  width: 2.75rem;
+  height: 2.2rem;
+  flex: 0 0 auto;
+  background: url("/src/img/mi2-lab-mark.svg") center / contain no-repeat;
+  content: "";
+}
+
+@media (max-width: 719px) {
+  .navbar .home-link {
+    gap: 0;
+  }
+
+  .navbar .home-link::before {
+    width: 2.6rem;
+    height: 2rem;
+  }
+}
