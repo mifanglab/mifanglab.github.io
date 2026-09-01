@@ -1,0 +1,231 @@
+/* Semantic publication thumbnails and motion enhancements */
+.publication-page .publication-list {
+  border-left-color: #cdddea;
+}
+
+.publication-page .publication-item {
+  grid-template-columns: 15px clamp(138px, 17vw, 178px) minmax(0, 1fr);
+  gap: 0.95rem;
+  align-items: center;
+  overflow: hidden;
+  padding: 0.9rem 1.05rem 0.9rem 0;
+  border-color: #dce9f3;
+  background: linear-gradient(112deg, #f7fbff 0%, #ffffff 78%);
+  box-shadow: 0 5px 18px rgba(24, 67, 102, 0.055);
+  transition:
+    opacity 0.55s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.55s cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 0.24s ease,
+    border-color 0.24s ease;
+}
+
+.publication-page .publication-item:hover,
+.publication-page .publication-item:focus-within {
+  transform: translateY(-3px);
+  border-color: #b7d1e6;
+  box-shadow: 0 14px 34px rgba(24, 67, 102, 0.13);
+}
+
+.publication-page .publication-item > .publication-dot {
+  grid-column: 1;
+  align-self: start;
+  margin-top: 0.55rem;
+  box-shadow: 0 0 0 0 rgba(43, 121, 181, 0.28);
+  transition: box-shadow 0.25s ease, transform 0.25s ease;
+}
+
+.publication-page .publication-item:hover > .publication-dot,
+.publication-page .publication-item:focus-within > .publication-dot {
+  transform: scale(1.12);
+  box-shadow: 0 0 0 5px rgba(43, 121, 181, 0.12);
+}
+
+.publication-page .publication-item > div:last-child {
+  min-width: 0;
+  align-self: center;
+}
+
+.publication-page .publication-visual {
+  position: relative;
+  grid-column: 2;
+  width: 100%;
+  aspect-ratio: 11 / 7;
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.58);
+  border-radius: 12px;
+  background: #132f4c;
+  box-shadow:
+    0 9px 24px rgba(15, 42, 69, 0.16),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.08);
+  isolation: isolate;
+}
+
+.publication-page .publication-visual::after {
+  position: absolute;
+  inset: -35% auto -35% -55%;
+  width: 42%;
+  content: "";
+  pointer-events: none;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.28), transparent);
+  transform: skewX(-18deg) translateX(0);
+  opacity: 0;
+}
+
+.publication-page .publication-visual svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  transform: scale(1.002);
+  transition: transform 0.45s cubic-bezier(0.22, 1, 0.36, 1), filter 0.35s ease;
+}
+
+.publication-page .publication-item:hover .publication-visual svg,
+.publication-page .publication-item:focus-within .publication-visual svg {
+  transform: scale(1.055);
+  filter: saturate(1.08) brightness(1.04);
+}
+
+.publication-page .publication-item:hover .publication-visual::after,
+.publication-page .publication-item:focus-within .publication-visual::after {
+  animation: publicationShine 0.85s ease-out both;
+}
+
+.publication-page .pub-visual-label {
+  font: 700 6.8px/1.1 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  letter-spacing: 0.13em;
+}
+
+.publication-page .pub-visual-index {
+  font: 700 6.2px/1 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  letter-spacing: 0.08em;
+}
+
+.publication-page .pub-scan {
+  transform-box: fill-box;
+  transform-origin: center;
+  opacity: 0;
+}
+
+.publication-page .publication-item.is-in-view .pub-scan {
+  animation: publicationScan 5.6s ease-in-out infinite;
+  animation-delay: var(--visual-delay, 0ms);
+}
+
+.publication-page .publication-item:hover .pub-flow,
+.publication-page .publication-item:focus-within .pub-flow {
+  stroke-dasharray: 5 4;
+  animation: publicationFlow 1.3s linear infinite;
+}
+
+.publication-page.publication-motion .publication-item:not(.is-visible) {
+  opacity: 0;
+  transform: translateY(18px) scale(0.992);
+}
+
+.publication-page .publication-item h3 {
+  transition: color 0.2s ease;
+}
+
+.publication-page .publication-item:hover h3,
+.publication-page .publication-item:focus-within h3 {
+  color: #185f94;
+}
+
+.publication-page .publication-links a {
+  transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+}
+
+.publication-page .publication-links a:hover,
+.publication-page .publication-links a:focus-visible {
+  background: #d7ebf9;
+  color: #164f7b !important;
+  transform: translateY(-1px);
+}
+
+@keyframes publicationShine {
+  0% { opacity: 0; transform: skewX(-18deg) translateX(0); }
+  24% { opacity: 0.7; }
+  100% { opacity: 0; transform: skewX(-18deg) translateX(420%); }
+}
+
+@keyframes publicationScan {
+  0%, 18% { opacity: 0; transform: translateY(-7px); }
+  28% { opacity: 0.8; }
+  72% { opacity: 0.48; }
+  86%, 100% { opacity: 0; transform: translateY(55px); }
+}
+
+@keyframes publicationFlow {
+  to { stroke-dashoffset: -18; }
+}
+
+@media (max-width: 760px) {
+  .publication-page .publication-item {
+    grid-template-columns: 15px 126px minmax(0, 1fr);
+    gap: 0.75rem;
+  }
+
+  .publication-page .publication-item h3 {
+    font-size: 0.92rem;
+  }
+}
+
+@media (max-width: 520px) {
+  .publication-page .publication-list .publication-item {
+    grid-template-columns: 15px 96px minmax(0, 1fr);
+    gap: 0.62rem;
+    margin-left: 0.62rem;
+    padding: 0.72rem 0.72rem 0.72rem 0;
+  }
+
+  .publication-page .publication-visual {
+    aspect-ratio: 1 / 1;
+    border-radius: 10px;
+  }
+
+  .publication-page .publication-item h3 {
+    font-size: 0.86rem;
+    line-height: 1.38;
+  }
+
+  .publication-page .publication-authors,
+  .publication-page .publication-meta {
+    font-size: 0.72rem;
+    line-height: 1.42;
+  }
+
+  .publication-page .publication-links {
+    display: block;
+    margin-top: 0.28rem;
+  }
+
+  .publication-page .publication-links a:first-child {
+    margin-left: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .publication-page.publication-motion .publication-item:not(.is-visible) {
+    opacity: 1;
+    transform: none;
+  }
+
+  .publication-page .publication-item,
+  .publication-page .publication-visual svg,
+  .publication-page .publication-dot,
+  .publication-page .publication-links a {
+    transition: none !important;
+  }
+
+  .publication-page .publication-item:hover,
+  .publication-page .publication-item:focus-within {
+    transform: none;
+  }
+
+  .publication-page .publication-item .pub-scan,
+  .publication-page .publication-item .pub-flow,
+  .publication-page .publication-visual::after {
+    animation: none !important;
+  }
+}
