@@ -1,6 +1,9 @@
 (function () {
   "use strict";
 
+  if (window.__mi2PublicationVisuals) return;
+  window.__mi2PublicationVisuals = true;
+
   var observer;
   var mutationFrame;
   var sourceMap = {};
@@ -10,7 +13,7 @@
   }
 
   function loadSources() {
-    return window.fetch("/assets/img/publications/sources.json", { cache: "force-cache" })
+    return window.fetch("/assets/img/publications/sources.json", { cache: "no-cache" })
       .then(function (response) {
         if (!response.ok) throw new Error("Unable to load publication image sources");
         return response.json();
@@ -62,17 +65,20 @@
     ensureObserver();
 
     page.querySelectorAll(".publication-item").forEach(function (card, index) {
-      if (card.dataset.publicationVisual === "ready") return;
-      card.dataset.publicationVisual = "ready";
       card.dataset.publicationIndex = index;
 
-      var heading = card.querySelector("h3");
-      var dot = card.querySelector(":scope > .publication-dot");
-      var entry = sourceMap[publicationId(index)];
-      if (heading && dot && entry) {
-        dot.insertAdjacentElement("afterend", makeVisual(entry, heading.textContent.trim(), card));
-      } else {
-        card.classList.add("publication-item--no-visual");
+      var hasVisual = card.querySelector(".publication-visual");
+      var isNoVisual = card.classList.contains("publication-item--no-visual");
+
+      if (!hasVisual && !isNoVisual) {
+        var heading = card.querySelector("h3");
+        var dot = card.querySelector(":scope > .publication-dot");
+        var entry = sourceMap[publicationId(index)];
+        if (heading && dot && entry) {
+          dot.insertAdjacentElement("afterend", makeVisual(entry, heading.textContent.trim(), card));
+        } else {
+          card.classList.add("publication-item--no-visual");
+        }
       }
 
       if (observer) observer.observe(card);
