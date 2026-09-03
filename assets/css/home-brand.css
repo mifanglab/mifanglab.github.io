@@ -13,6 +13,38 @@
   content: "";
 }
 
+.home .hero::before {
+  content: "";
+  display: block;
+  width: 210px;
+  height: 210px;
+  margin: 3.5rem auto 0;
+  background: url("/src/img/mi2-lab-mark.svg") center / contain no-repeat;
+}
+
+.home .hero h1 {
+  margin: 1.25rem auto 1rem;
+  font-size: 5rem;
+  font-weight: 800;
+  line-height: 1;
+  background: linear-gradient(90deg, #3B3B4C 0%, #3B3B4C 45%, #7A42B9 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #3B3B4C;
+}
+
+.home .hero h1:lang(zh) {
+  line-height: 1.2;
+}
+
+.home .hero .description {
+  color: #000;
+  font-size: 1.35rem;
+  line-height: 1.35;
+  margin: 0 auto 2rem;
+}
+
 @media (max-width: 719px) {
   .navbar .home-link {
     gap: 0;
@@ -21,5 +53,20 @@
   .navbar .home-link::before {
     width: 2.6rem;
     height: 2rem;
+  }
+
+  .home .hero::before {
+    width: 150px;
+    height: 150px;
+    margin-top: 2.5rem;
+  }
+
+  .home .hero h1 {
+    font-size: 3.2rem;
+    margin-top: 1rem;
+  }
+
+  .home .hero .description {
+    font-size: 1.05rem;
   }
 }
