@@ -61,3 +61,11 @@
 @media(max-width:800px){.theme-default-content.lab-wide:has(.join-page){padding:2rem 1.15rem 2.5rem}.join-page .value-grid,.join-page .steps{grid-template-columns:1fr}.join-page .candidate-layout{grid-template-columns:1fr}.join-page .value-grid article{min-height:0}.join-page .application-callout{align-items:flex-start;flex-direction:column;gap:1.1rem}.join-page .application-callout .button-primary{width:100%}}
 @media(max-width:560px){.theme-default-content.lab-wide:has(.join-page){padding-top:1.5rem}.join-page>h1{font-size:2.35rem;margin-bottom:1.25rem}.join-page>h2{margin-top:2.7rem;font-size:1.3rem}.join-page .join-hero{padding:2rem 1.35rem;border-radius:22px}.join-page .join-hero h2{font-size:2.35rem}.join-page .join-hero>p:not(.eyebrow){font-size:.94rem}.join-page .info-table{grid-template-columns:1fr}.join-page .join-hero .profile-actions a{width:100%}}
 @media(prefers-reduced-motion:reduce){.join-page *{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+
+/* Postdoctoral announcement entry on both Join Us pages. */
+.join-page .postdoc-opening{margin:0 0 1.8rem;padding:1.4rem 1.5rem;gap:1.5rem;background:#faf8fc;border:1px solid #e5dcec;border-radius:10px;box-shadow:none}
+.join-page .postdoc-opening h3{font-size:1.03rem;line-height:1.7;margin:0 0 .5rem;color:#30253b}
+.join-page .postdoc-opening p{font-size:.87rem;line-height:1.8;color:#685c73}
+.join-page .postdoc-opening .button-primary{box-sizing:border-box;min-width:0;white-space:nowrap;text-align:center;background:#70429b!important;color:#fff!important;border-radius:6px}
+.join-page .postdoc-opening .button-primary:hover{background:#5c3384!important;box-shadow:none}
+@media(max-width:800px){.join-page .postdoc-opening{padding:1.25rem;gap:1rem}}
